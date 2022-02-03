@@ -1,2 +1,0 @@
-class AppX < ApplicationRecord
-end
