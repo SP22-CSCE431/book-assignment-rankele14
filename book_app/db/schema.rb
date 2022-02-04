@@ -24,10 +24,4 @@ ActiveRecord::Schema.define(version: 2022_02_03_213927) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "widgets", force: :cascade do |t|
-    t.string "title"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
 end
